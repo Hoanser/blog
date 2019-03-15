@@ -1,0 +1,24 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
+
+# nuxt.js build output
+.nuxt
+
+# Nuxt generate
+dist
+
+# IDE
+.idea

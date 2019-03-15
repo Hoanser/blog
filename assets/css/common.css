@@ -1,0 +1,108 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+span,
+strong,
+b,
+em,
+i,
+button,
+input,
+textarea,
+header,
+section,
+video,
+div {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Rosario', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+input,
+button {
+    position: relative;
+    border: 0;
+    background: none;
+    outline: none;
+}
+
+input:disabled {
+    background-color: rgba(192, 192, 192, .4);
+}
+
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    hide-focus: expression(this.hideFocus=true);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.fleft{
+    float: left;
+}
+
+.fright{
+    float: right;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body{
+    background: #F5F7F9;
+}
+.wrap{
+    margin: 0 auto;
+    width: 960px;
+    min-width: 960px;
+}
+.header_line{
+    height: 3px;
+    background: #222;
+}
