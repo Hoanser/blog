@@ -92,7 +92,7 @@
                     item.summary = converter.makeHtml(item.summary)
                 }
 
-                this.$axios.post('/api/user').then(res => {
+                this.$axios.get('/api/user').then(res => {
                     console.log(res)
                 })
             }

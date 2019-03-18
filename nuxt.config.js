@@ -17,7 +17,7 @@ module.exports = {
         '@/assets/css/common.css'
     ],
     env: {
-        baseUrl: process.env.BASE_URL || 'http://localhost:3600/'
+        baseUrl: process.env.BASE_URL || 'http://localhost:3660/'
     },
     plugins: [
         '~/plugins/axios',
